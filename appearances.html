@@ -1,0 +1,204 @@
+<!doctype html>
+<!--  I n s t u c t i o n s   A C  -  t o   
+
+Kirby Website Practice:
+
+
+
+Navigation
+Just your normal text based navigation with roll-over effect
+
+Footer:
+In the footer:
+navigation, 
+copyright, 
+Last Update: <today’s date>
+
+JOB 1: Create a Cascading Style Sheet
+Title it styles.css
+Create a CSS rule for the 
+body tag, 
+heading 1 tag, 
+heading 2 tag, 
+blockquote tag, and the 
+table tag
+Write a CSS pseudo-class statement for the links (HINT: a:link, a:hover, a:active, a:visited)
+
+JOB 2: Create a Template
+Create a template file to control the design of your 5 pages
+Insert a table to control your layout
+Create and center a Page Title to appear on each page
+Create a Navigation bar
+Create Footer Navigation
+Create a copyright statement in your footer
+Create “Last Updated” information in the footer
+
+
+JOB 3: Create a Home Page
+Create index.html and link it to style.css
+Place a page title and heading for the Home Page
+Place Content on the home Page (See Below)
+Format the Headings and paragraphs
+Place an image on the page (image must include alt text)
+
+JOB 4: Create Content Pages
+Create content html pages
+Link each to your style.css file
+Add a page title and heading for each
+Place text on the page (See Below)
+Place and format the image for each page (All images must include alt text)
+
+JOB 5: Create a Newsletter Page
+Create newsletter.html
+Link the page to styles.css
+USE a HTML Table to Design the Page
+Add a list of Instructions above the form
+Create a form on the page to collect First Name, Last Name, Street Address, City, State, Zip, and Email Address
+Each form field should have a Label, and a text box
+Set the Action on the Form to email the entry information to your email address
+Set the Method on the Form to GET
+Create Submit & Reset Buttons
+Place and format the image for each page (All images must include alt text)
+
+
+NOTE: Please cite Kirby’s wikipedia page, where all this content comes from. This can be done in your footer.    
+https://en.wikipedia.org/wiki/Kirby_(character) -->
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> Kirby Website </title>
+<link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<style>
+
+	table {	
+  padding: 5% 5%;
+    margin: 0 auto;
+      min-width: 80%;
+        border: 1px solid rgba(0,0,0,0.26);
+		  background-color: rgba(255,249,254,0.93);
+			}
+	
+	body {
+		background-color: rgba(247,247,247,1.00);
+		
+	}
+	#header {
+			text-align: center;
+			padding-bottom: 5%;
+		}
+	
+		p {
+			margin: 2% 0;
+		}
+		
+		
+		footer {
+			text-align: center;
+			
+		}
+	h1 {
+		text-align: center;
+	}
+	h4 {
+		text-align: center;
+	}
+	</style>
+	
+	
+	
+<body>
+	<table> 
+	
+	<tr>
+		<td colspan="2" id="header"> 
+			<blockquote>Kirby - Nintendo’s Pink Menace</blockquote>
+			
+			
+			<nav> 
+		<img src="images/kirby-navbar.png" alt="kirby navbar" usemap="#kirb-bar">
+			<map name="kirb-bar"> 
+			<area shape="rect" coords="0,1,71,86" href="index.html" alt="link to home padge">
+				<area shape="rect" coords="89,1,179,86" href="conceptcreation.html" alt="link to conceptcreation.html padge">
+					<area shape="rect" coords="189,1,281,86" href="characteristics.html" alt="link to characteristics padge">
+						<area shape="rect" coords="291,1,368,86" href="appearances.html" alt="link to appearances padge">
+							<area shape="rect" coords="374,1,442,86" href="newsletter.html" alt="link to newsletter padge">
+		</map>
+					</nav>
+			
+		
+		</td>
+		</tr>
+		
+		
+	<tr>
+		<td>
+			<main>
+		
+		<h1>Kirby’s Concept and Creation</h1>
+				
+			<h4>Kirby was created by video game designer Masahiro Sakurai as the player character of the 1992 game Kirby's Dream Land. The character's design was intended to serve as placeholder graphics for the game's original protagonist in early development and thus was given a simplistic ball-like appearance. Sakurai switched to the placeholder design for the final character design when he believed that it served the character better. The character was known as Popopo during development until the name "Kirby" was chosen from a draft list of potential names. Shigeru Miyamoto stated that "Kirby" was chosen in honor of American lawyer John Kirby, who defended Nintendo in the Universal City Studios, Inc. v. Nintendo Co., Ltd. case in 1984 and that the guttural-sounding name contrasted amusingly with the character's cute appearance. Kirby appears white in Kirby's Dream Land due to the grayscale palette of the Game Boy system. Sakurai intended the character to be pink, though Miyamoto originally wanted the character to be yellow. Kirby does appear white in the game's North American promotional materials and artwork to reflect the character's in-game appearance.
+In North America, Kirby consistently appears in artwork with a more striking, bolder expression than in Japan, where his expression is more relaxed. Nintendo has said that the more battle-ready appearance appeals to a wider audience in North America.
+
+</h4>
+		
+		
+		</main>
+			</td>
+				</tr>
+	
+	
+		
+		<tr>
+			<td>
+			
+			<footer>
+				<nav class="fnav">
+				
+			<a href="index.html">HOME</a>	
+			<a href="index.html">CONCEPT CREATION </a>	
+			<a href="index.html">CHARACTERISTICS </a>	
+			<a href="index.html">APPEARANCES </a>	
+			<a href="index.html">NEWSLETTER</a>					
+				<p> copyright&copy; 2023 lucas richards</p>
+				<p>last update: May 9 2023</p>
+				
+				
+				
+				</nav>
+				</footer>
+			
+		</td>
+		</tr>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</table>	
+</body>
+</html>
